@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--自定义按钮选项的样式-->
+    <declare-styleable name="Switch">
+        <attr name="checked" format="reference|boolean"/>
+        <attr name="switchOnColor" format="reference|color"/>
+        <attr name="switchOffColor" format="reference|color"/>
+        <attr name="spotOnColor" format="reference|color"/>
+        <attr name="spotOffColor" format="reference|color"/>
+        <attr name="switchOnStrokeColor" format="reference|color"/>
+        <attr name="switchOffStrokeColor" format="reference|color"/>
+        <attr name="spotPadding" format="reference|dimension"/>
+        <attr name="duration" format="reference|integer" />
+    </declare-styleable>
+
+    <!--五星评价style-->
+    <declare-styleable name="RatingBar">
+        <attr name="rb_max_count" format="integer"/>
+        <attr name="rb_count" format="integer"/>
+        <attr name="rb_fill" format="reference"/>
+        <attr name="rb_empty" format="reference"/>
+        <attr name="rb_space" format="dimension"/>
+        <attr name="rb_click_rating" format="boolean"/>
+        <attr name="rb_touch_rating" format="boolean"/>
+    </declare-styleable>
+
+
+    <declare-styleable name="PwdTextView">
+        <attr name="psw_size" format="dimension" />
+        <attr name="psw_color" format="color" />
+        <attr name="psw_count" format="integer" />
+        <attr name="border_color" format="color" />
+    </declare-styleable>
+</resources>

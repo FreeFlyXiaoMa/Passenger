@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        >
+
+        <TextView
+            android:id="@+id/tv_changephonenumber_back"
+            android:layout_width="30dp"
+            android:layout_height="16dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="4dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="4dp"
+            android:drawableLeft="@mipmap/arow_left_black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="修改手机号"
+            android:textColor="#000"
+            android:textSize="16sp" />
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#778899"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+
+        android:background="@mipmap/skyblue_logo"
+        android:layout_gravity="center_horizontal"
+        />
+    <TextView
+        android:id="@+id/tv_current_phonenumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="您当前的手机号为 188****1053"
+        android:layout_marginTop="20dp"
+        android:textColor="@android:color/black"
+        android:layout_gravity="center_horizontal"
+        android:textSize="14sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="更换当前行程、滴币等信息不变，修改后须使用新手机号登录"
+        android:textSize="13sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:textSize="13sp"
+        android:text="仅支持修改到未注册手机号，如果手机号已注册，请退出当前账号，并登录要修改到的手机号进行注销"
+
+        />
+    <EditText
+        android:id="@+id/et_input_newPhoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入新手机号"
+        android:layout_marginTop="40dp"
+        />
+    <Button
+        android:id="@+id/btn_confirm_change"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="确认更换"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/btn_shape"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        />
+</LinearLayout>

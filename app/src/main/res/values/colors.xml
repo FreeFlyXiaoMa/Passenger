@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="lightblue">#ADD8E6</color> <!-- 亮蓝 -->
+    <color name="gainsboro">#DCDCDC</color> <!-- 淡灰 -->
+    <color name="whole_bg">#f7f7f6</color> <!-- 整体背景 -->
+    <color name="transparent">#00000000</color>
+    <color name="bottom_delete_bg">#F3F1EF</color>
+    <color name="color_2581ff">#2581ff</color>
+
+    <color name="line">#eeeeee</color>
+    <color name="text_color_grey">#777777</color>
+    <color name="bg_btn">#237aec</color>
+    <color name="blue_light">#2e88ff</color>
+    <color name="colorstatus">#3da1ff</color>
+    <color name="yellow">#FFD700</color>
+    <drawable name="keyboard_delete_pressed">#cccccc</drawable>
+    <drawable name="keyboard_delete_normal">#ffe8ecef</drawable>
+</resources>

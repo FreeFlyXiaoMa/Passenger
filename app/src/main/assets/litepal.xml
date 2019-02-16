@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+    <dbname value="JourneyList"></dbname>
+    <version value="4"></version> //数据库更新第3次
+    <list>
+        <mapping class="com.junjun.poitest2.overlayutil.entity.JourneyEntity"></mapping>
+        <mapping class="com.junjun.poitest2.overlayutil.entity.PersonalData"></mapping>
+    </list>
+</litepal>

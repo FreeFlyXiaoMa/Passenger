@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="3dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        >
+
+        <TextView
+            android:id="@+id/tv_back_back_back"
+            android:layout_width="30dp"
+            android:layout_height="20dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="4dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="4dp"
+            android:drawableLeft="@mipmap/arow_left_black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="服务完成"
+            android:textColor="#000"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:background="#DCDCDC" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="实际费用"
+        android:gravity="center_horizontal"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"
+        />
+    <!--显示费用-->
+    <TextView
+        android:id="@+id/tv_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="￥23.50"
+        android:textSize="35sp"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:textColor="#FF8C00"
+
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#DCDCDC"
+        android:layout_marginTop="20dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="本次费用将在两小时后自动扣除"
+        android:gravity="center_horizontal"
+        android:textSize="16sp"
+        android:layout_marginTop="20dp"
+        android:textColor="#a9a9a9"
+        />
+    <TextView
+        android:id="@+id/tv_pay_now"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="立即付费"
+        android:textSize="20sp"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/car_type"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#DCDCDC"
+        android:layout_marginTop="20dp"
+        />
+    <TextView
+        android:id="@+id/tv_evaluate_please"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="请为本次服务评价"
+        android:layout_marginTop="30dp"
+        android:gravity="center_horizontal"
+        android:textSize="20sp"
+
+        />
+    <com.junjun.poitest2.overlayutil.ratingbarView.RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        app:rb_count="0"
+        app:rb_empty="@mipmap/empty"
+        app:rb_fill="@mipmap/fill"
+        app:rb_max_count="5"
+        app:rb_space="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:clickable="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+
+        />
+    <Button
+        android:id="@+id/btn_evaluate"
+        android:text="提交评价"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_selector"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100dp"
+        android:padding="10dp"
+        />
+
+
+</LinearLayout>
