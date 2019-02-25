@@ -19,7 +19,7 @@ public class SocketService extends Service {
     public SocketService() {
     }
 
-    private InetSocketAddress remoteAddress = new InetSocketAddress("10.32.34.157",9976);
+    private InetSocketAddress remoteAddress = new InetSocketAddress("10.32.34.143",9976);
     @Override
     public void onCreate() {
         new Thread(){

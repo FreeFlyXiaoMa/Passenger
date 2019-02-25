@@ -624,7 +624,7 @@ public class MapActivity extends AppCompatActivity implements View.OnClickListen
     private HandlerLocationBean handlerLocationBean = new HandlerLocationBean();
 
     private class HandlerLocationBean extends Handler {
-        
+
         /*接收到司机的定位信息--------------------------------------------------------------------*/
         @Override
         public void handleMessage(Message msg) {
