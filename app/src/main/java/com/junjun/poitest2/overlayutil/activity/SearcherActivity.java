@@ -100,13 +100,20 @@ public class SearcherActivity extends AppCompatActivity implements TextWatcher, 
             return;
         }
         ArrayList<HashMap<String, Object>> arrayList = new ArrayList<>();
-        for (int i = 0; i < list.size(); i++){
+        //关键字搜索
+        /*for (int i = 0; i < list.size(); i++){
             HashMap<String,Object> map = new HashMap<>();
             map.put("name", list.get(i).name);
             map.put("address", list.get(i).address);
             map.put("location", list.get(i).location);
             arrayList.add(map);
+        }*/
+        for(int i=0;i<10;i++){
+
+
+
         }
+
         SimpleAdapter adapter = new SimpleAdapter(SearcherActivity.this, arrayList, R.layout.list_item,
                 new String[]{"name", "address"}, new int[]{R.id.tv_result_name, R.id.tv_result_address});
         lvResult.setAdapter(adapter);
